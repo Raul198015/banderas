@@ -9,7 +9,7 @@ function App() {
   const [selectedCountry, setSelectedCountry] = useState(null);
 
   useEffect(() => {
-    fetch("https://restcountries.com/v2/all")
+    fetch("https://restcountries.com/v2/all/")
       .then(response => response.json())
       .then(data => {
         setCountries(data);

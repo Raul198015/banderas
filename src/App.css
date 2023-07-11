@@ -32,6 +32,10 @@
   color: #d6e410;
   border: 10px solid black;
   border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(0.95);
 }
 
 
